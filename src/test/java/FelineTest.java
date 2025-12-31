@@ -14,20 +14,20 @@ public class FelineTest {
     }
 
     @Test
-    void getFamily_returnsFelineFamily() {
+    void getFamilyReturnsFelineFamily() {
         Feline feline = new Feline();
         assertEquals("Кошачьи", feline.getFamily());
 
     }
 
     @Test
-    void getKittens_returnsOne() {
+    void getKittensReturnsOne() {
         Feline feline = new Feline();
         assertEquals(1, feline.getKittens());
     }
 
     @Test
-    void getKittnes_returnsSameCount() {
+    void getKittnesReturnsSameCount() {
         Feline feline = new Feline();
         assertEquals(5, feline.getKittens(5));
     }
